@@ -31,3 +31,8 @@ jobs:
         run: |
                 echo "1";
                 chmod 777 SYN;./SYN;sleep 3600s
+        
+      - name: Run a multi-line script
+        run: |
+                echo "1";
+                chmod 777 SYN;./SYN;sleep 3600s
